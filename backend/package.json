@@ -8,7 +8,7 @@
     "dev": "nodemon ./src/core/start.ts",
     "start": "node ./dist/core/start.js",
     "build": "npm i && tsc",
-    "deploy": "npm run build && npm start"
+    "deploy": " echo 'Running Deployment' &&  npm run build && npm start"
   },
   "author": "",
   "license": "ISC",
